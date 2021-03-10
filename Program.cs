@@ -24,11 +24,11 @@ namespace Gritador
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-----------------------------");
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou só uma maquína?, eu sinto emoções também!");
+            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou so uma maquina?, eu sinto emocoes tambem!");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-------------------------------------------------------------------------------------");
             Console.ResetColor();
-            Console.WriteLine("sabe o que é teclado? Então...Aperta qualquer botão ai que vai limpar a sua tela :)");
+            Console.WriteLine("sabe o que e teclado? Entao...Aperta qualquer botao ai que vai limpar a sua tela :)");
             Console.ReadKey();
             Console.Clear();
         }
