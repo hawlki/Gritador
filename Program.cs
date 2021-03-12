@@ -13,22 +13,20 @@ namespace Gritador
             Console.WriteLine("Feito por Israel Camilo Lopes");
             Console.WriteLine("1I3");
             Console.WriteLine("-----------------------------");
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Por favor, digite alguma coisa:");
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
             String algumaCoisa = Console.ReadLine();
             Console.ResetColor();
-            Console.WriteLine("-----------------------------");
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"{algumaCoisa.ToUpper()}");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-----------------------------");
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("para de gritar comigo!, vc pensa que eu sou so uma maquina?, eu sinto emocoes tambem!");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-------------------------------------------------------------------------------------");
             Console.ResetColor();
-            Console.WriteLine("sabe o que e teclado? Entao...Aperta qualquer botao ai que vai limpar a sua tela :)");
+            Console.WriteLine("clique em uma tecla para limpar a tela");
             Console.ReadKey();
             Console.Clear();
         }
