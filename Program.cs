@@ -22,7 +22,7 @@ namespace Gritador
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-----------------------------");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou so uma maquina?, eu sinto emocoes tambem!");
+            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou só uma maquina?, eu sinto emoções também!");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-------------------------------------------------------------------------------------");
             Console.ResetColor();
