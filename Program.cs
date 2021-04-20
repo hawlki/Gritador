@@ -9,11 +9,9 @@ namespace Gritador
             Console.Clear();
             Console.Beep();
 
-            Console.WriteLine("-----------------------------");
-            Console.WriteLine("Etec Adolpho Berezin");
-            Console.WriteLine("Feito por Israel Camilo Lopes");
-            Console.WriteLine("1I3");
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("          Gritador          ");
+            Console.WriteLine("----------------------------");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Por favor, digite alguma coisa:");
@@ -22,10 +20,10 @@ namespace Gritador
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"{algumaCoisa.ToUpper()}");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("-----------------------------");
+            Console.WriteLine("----------------------------");
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou só uma maquina?, eu sinto emoções também!");
+            Console.WriteLine("para de gritar comigo!, vc pensa que eu sou só uma maquína?, eu sinto emoções também!");
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-------------------------------------------------------------------------------------");
             Console.ResetColor();
